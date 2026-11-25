@@ -1,0 +1,445 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-employee-functionality;verify-add-employee-with-basic-details",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Verify add employee with bAsic details",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 580982300
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4886887399
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User Launch the Application",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4486556499
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter username \"Admin\" and password \"admin123\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2023103699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 71477500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should be navigated to dashboard page",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1862313099
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user clicks on PIM menu",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2003803500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User clicks on Add employee submenu",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2075037000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User enter firstname \"Bhavya\" and lastname \"M\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1044956199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3691669899
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Employeee should be created",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 170833699
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-employee-functionality;verify-add-employee-with-basic-details",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Verify add employee with bAsic details",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 825603400
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4376225900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User Launch the Application",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2098243600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter username \"Admin\" and password \"admin123\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1030511899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 88226900
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should be navigated to dashboard page",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2410462500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user clicks on PIM menu",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1510481599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User clicks on Add employee submenu",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2078353800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User enter firstname \"Shashank\" and lastname \"Abc\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1033844100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3665277400
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Employeee should be created",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 48182099
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-employee-functionality;verify-add-employee-with-basic-details",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Verify add employee with bAsic details",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 745019699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4568368300
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User Launch the Application",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2082791799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter username \"Admin\" and password \"admin123\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1033525699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 131740400
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should be navigated to dashboard page",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2726413300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user clicks on PIM menu",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1464175999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User clicks on Add employee submenu",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2096723900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User enter firstname \"Durga\" and lastname \"Prasad\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1028864300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3621035599
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Employeee should be created",
+            "match": {
+              "location": "tests\\stepDefinitions\\addeployee.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 77663800
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-employee-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add Employee functionality",
+    "tags": [],
+    "uri": "tests\\features\\addemployee.feature"
+  }
+]
